@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Bog'lanish — Sirli Ishlar Byurosi</title>
+</head>
+<body>
+    <header>
+        <h1>Bizga ish bering yoki yordam so'rang</h1>
+        <nav>
+            <a href="index.html">Bosh sahifa</a> | 
+            <a href="cases.html">Ishlar ro'yxati</a> | 
+            <a href="detectives.html">Detektivlar</a> | 
+            <a href="contact.html">Bog'lanish</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <form action="#" method="post">
+            <label for="name">Ismingiz:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Telefon raqamingiz:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="case-type">Ish turi:</label><br>
+            <select id="case-type" name="case-type">
+                <option value="theft">O'g'rilik</option>
+                <option value="missing">Yo'qolish</option>
+                <option value="fraud">Firibgarlik</option>
+                <option value="other">Boshqa</option>
+            </select><br><br>
+
+            <label for="description">Qisqa tavsif:</label><br>
+            <textarea id="description" name="description" rows="5" cols="30"></textarea><br><br>
+
+            <button type="submit">Yuborish</button>
+        </form>
+
+        <hr>
+
+        <section>
+            <h2>Aloqa ma'lumotlari</h2>
+            <address>
+                Manzil: Toshkent sh., Amir Temur ko'chasi, 42-uy<br>
+                Telefon: +998 71 123-45-67<br>
+                Email: info@sirlishlar.uz
+            </address>
+        </section>
+
+        <br>
+
+        <section>
+            <h2>Xarita</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11984.382897089163!2d69.279737!3d41.311158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f01%3A0x10f27402636f888!2sTashkent!5e0!3m2!1sen!2suz!4v1620000000000" 
+                width="400" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
